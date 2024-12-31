@@ -1,0 +1,29 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.15);
+}
+
+.todo-item.urgent {
+  background-color: rgba(35, 97, 204, 0.2);
+}
+
+.todo-item .complete-btn {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
+.todo-item .trash {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.todo-item .trash:hover {
+  color: red;
+}
